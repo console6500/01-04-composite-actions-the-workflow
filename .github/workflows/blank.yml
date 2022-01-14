@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: console6500/01-04-composite-actions-the-action@main
         with:
-          PYTHON_VERSION: 3.8
+          PYTHON_VERSION: 3
