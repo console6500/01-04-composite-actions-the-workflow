@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: console6500/01-04-composite-actions-the-action@v3
+      - uses: console6500/01-04-composite-actions-the-action@main
+        with:
+          PYTHON_VERSION: 3.8
